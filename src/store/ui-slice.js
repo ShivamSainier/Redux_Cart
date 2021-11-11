@@ -13,7 +13,7 @@ const uiSlice=createSlice({
                 title:action.payload.title, 
                 message:action.payload.message
             }
-        }
+        },
         toogle(state){
             state.cartIsVisiable = !state.cartIsVisiable
         }
